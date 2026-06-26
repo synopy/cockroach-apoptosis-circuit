@@ -1,6 +1,8 @@
+<img width="1910" height="949" alt="Score" src="https://github.com/user-attachments/assets/be8152ff-fab0-478f-997b-544b701dbcf4" />
+
+
 # cockroach-apoptosis-circuit
 
-<img width="1910" height="949" alt="Score" src="https://github.com/user-attachments/assets/be8152ff-fab0-478f-997b-544b701dbcf4" />
 # 🪳 Synthetic Genetic Circuit: Inter-Species Biocontainment System
 > **In Silico CRISPR-Cas9 Target Finder for Parthenogenetic Waste-Scavenger Control**
 
