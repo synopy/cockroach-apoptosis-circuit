@@ -1,7 +1,5 @@
 # cockroach-apoptosis-circuit
-<p align="center">
-  <img src="대충 네온.png" width="100%" style="border-radius: 10px;" />
-</p>
+
 # 🪳 Synthetic Genetic Circuit: Inter-Species Biocontainment System
 > **In Silico CRISPR-Cas9 Target Finder for Parthenogenetic Waste-Scavenger Control**
 
