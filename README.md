@@ -2,6 +2,7 @@
 
 # 🪳 Synthetic Genetic Circuit: Inter-Species Biocontainment System
 > **In Silico CRISPR-Cas9 Target Finder for Parthenogenetic Waste-Scavenger Control**
+<img width="1910" height="949" alt="Score" src="https://github.com/user-attachments/assets/be8152ff-fab0-478f-997b-544b701dbcf4" />
 
 This project is a synthetic biology prototype designed to engineer an autonomous, eco-friendly bio-scavenger population utilizing the unique reproductive and behavioral traits of *Periplaneta americana* (American Cockroach), integrated with a fail-safe genetic kill-switch inspired by cephalopod biology.
 
