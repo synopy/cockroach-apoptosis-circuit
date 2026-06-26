@@ -1,7 +1,6 @@
 from Bio.Seq import Seq
 
 def calculate_gc_content(sequence):
-    """대시보드의 'GC Content' 분석용 함수"""
     if not sequence:
         return 0.0
     g_count = sequence.count('G')
@@ -9,19 +8,17 @@ def calculate_gc_content(sequence):
     return ((g_count + c_count) / len(sequence)) * 100
 
 def predict_efficiency_score(gRNA_seq):
-    """대시보드 우측 하단 차트와 매칭되는 점수 예측 알고리즘"""
     gc = calculate_gc_content(gRNA_seq)
     if 40.0 <= gc <= 60.0:
         return 0.9500
     return 0.5500
 
 def design_gRNA(target_sequence, gRNA_length=20, min_efficiency=0.80):
-    """[Synthetic Genetic Circuit] gRNA 탐색 파이프라인"""
     gRNAs = []
     clean_seq = "".join([char for char in str(target_sequence).upper() if char.isalpha()])
     window_length = gRNA_length + 3
     
-    # 1. Sense 가닥 스캔
+    
     for i in range(len(clean_seq) - window_length + 1):
         full_seq = clean_seq[i:i+window_length]
         gRNA_seq = full_seq[:gRNA_length]
@@ -42,7 +39,7 @@ def design_gRNA(target_sequence, gRNA_length=20, min_efficiency=0.80):
                     "efficiency_score": efficiency
                 })
             
-    # 2. Antisense 가닥 스캔
+    
     rev_seq_obj = Seq(clean_seq).reverse_complement()
     clean_rev_seq = str(rev_seq_obj)
     
