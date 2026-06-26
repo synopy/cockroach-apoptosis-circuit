@@ -32,4 +32,4 @@ To prevent ecological disruption and unmitigated population expansion, the circu
 ## Note on Scoring Mechanism
 The current prototype utilizes a bio-inspired heuristic algorithm for target efficiency scoring based on operational circuit gates. In a production environment, this pipeline is architected to seamlessly interface with deep learning models (e.g., DeepCRISPR) via automated API endpoints.
 
-### Cut me some slack, I'm just a high school senior. This is purely a proof-of-concept prototype, And..i love pizza, loving it
+### Cut me some slack, I'm just a high school senior. This is purely a proof-of-concept prototype, And..i love pizza, loving it  🍕 🍕 🍕 🍕
